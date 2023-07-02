@@ -68,4 +68,11 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: $color-footer;
+    font-size: 40px;
+    margin: auto;
+    a {
+        padding: 10px 10px;
+        margin: 10px;
+        background-color: $color-footer;
+    }
 }
