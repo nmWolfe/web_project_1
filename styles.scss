@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Nunito:wght@800&family=Roboto&display=swap');
+
+$font-logo: "Francois One", sans-serif;
+$font-head: "Nunito", sans-serif;
+$font-body: "Roboto", sans-serif;
+
+$color-primary: #3a4166;
+$color-secondary: #1cb9f1;
+$color-background: #fefdf7;
+$color-footer: #fffcdd;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+    background-color: $color-background;
 }
 
 a:link, 
@@ -9,3 +23,48 @@ a:visited {
     text-decoration: none;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-logo;
+}
+
+.logo {
+    font-family: $font-logo;
+    font-size: 60px;
+}
+
+.button {
+    display: block;
+    font-family: $font-head;
+    border: solid 1px $color-primary;
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
