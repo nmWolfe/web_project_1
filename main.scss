@@ -67,9 +67,18 @@ nav {
     margin-bottom: 40px;
 }
 
-.penguin-display {
+.container {
+    display: inline-block;
     text-align: center;
-
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px;
+    
+    div p {
+        width: 50%;
+        display: inline-block;
+        align-content: center;
+    }
 }
 
 span {
