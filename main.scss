@@ -63,8 +63,17 @@ nav {
     font-size: 18px;
     border-radius: 5px;
     height: 55px;
-    padding: 15px 40px;
+    padding: 15px 50px;
     margin-bottom: 40px;
+}
+
+.penguin-display {
+    text-align: center;
+
+}
+
+span {
+    font-weight: bold;
 }
 
 header {
@@ -86,7 +95,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 section {
@@ -118,7 +126,6 @@ section {
     }
 }
 
-
 footer {
     display: flex;
     flex-direction: column;
@@ -128,7 +135,7 @@ footer {
     font-size: 20px;
     margin: auto;
     a {
-        padding: 10px 10px;
+        padding: 5px 5px;
         margin: 10px;
         background-color: $color-footer;
     }
