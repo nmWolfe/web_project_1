@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Nunito:wght@800&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Nunito+Sans&family=Nunito:wght@800&display=swap');
 
 $font-logo: "Francois One", sans-serif;
 $font-head: "Nunito", sans-serif;
-$font-body: "Roboto", sans-serif;
-$font-size: 40px;
+$font-body: "Nunito Sans", sans-serif;
 
 $color-primary: #3a4166;
 $color-secondary: #1cb9f1;
@@ -29,17 +28,17 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-family: $font-logo;
-    padding: 10px 30px;
+    margin: 10px;
     a {
         width: 100%;
-        padding: 0 10px;
         justify-content: space-between;
+        margin: 5px;
     }
 }
 
 .logo {
     font-family: $font-logo;
-    font-size: 60px;
+    font-size: 40px;
     justify-content: flex-start;
 }
 
@@ -48,11 +47,11 @@ nav {
     font-family: $font-head;
     font-size: 20px;
     text-align: center;
-    border: solid 1px $color-primary;
+    border: solid 2px $color-primary;
     width: 150px;
     height: 100%;
     border-radius: 5px;
-    padding: 15px 30px;
+    padding: 10px 20px;
 }
 
 .button-main {
@@ -60,13 +59,12 @@ nav {
     background-color: $color-primary;
     color: $color-background;
     font-family: $font-head;
-    font-size: 30px;
-    width: 300px;
-    border-radius: 5px;
-    height: 70px;
-    padding: 15px 10px;
-    margin: 40px 40px;
     text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 55px;
+    padding: 15px 40px;
+    margin-bottom: 40px;
 }
 
 header {
@@ -74,9 +72,10 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px 10px;
+    padding: 5px 5px;
     h2 {
-        font-size: 40px;
+        font-size: 30px;
+        padding: 10px 20px;
         font-family: $font-head;
         color: $color-secondary;
     }
@@ -91,29 +90,27 @@ main {
 }
 
 section {
-
     display: flex;
     flex-direction: column;
-    margin: 30px 50px;
+    padding: 20px 20px;
     text-align: center;
 
     div {
-        padding: 20px;
+        padding: 10px;
     }
 
 
     div:nth-child(1) {
-        font-size: 30px;
+        font-size: 18px;
         font-weight: bold;
     }
     
     div:nth-child(2) {
-        font-size: 30px;
-        color: $color-secondary;
+        font-size: 18px;
     }
     
     div:nth-child(3) {
-        font-size: 22px;
+        font-size: 15px;
         font-weight:lighter;
     }
 }
@@ -125,15 +122,11 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: $color-footer;
-    font-size: 40px;
+    font-size: 20px;
     margin: auto;
     a {
         padding: 10px 10px;
         margin: 10px;
         background-color: $color-footer;
     }
-}
-
-@media (max-width: 480px) {
-
 }
