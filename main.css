@@ -18,6 +18,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-family: "Francois One", sans-serif;
+  padding: 10px 30px;
+}
+nav a {
+  width: 100%;
+  padding: 0 10px;
+  justify-content: space-between;
 }
 
 .logo {
