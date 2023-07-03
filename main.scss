@@ -1,3 +1,110 @@
-@import "./base";
-@import "./layout";
-@import "./components";
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Nunito:wght@800&family=Roboto&display=swap');
+
+$font-logo: "Francois One", sans-serif;
+$font-head: "Nunito", sans-serif;
+$font-body: "Roboto", sans-serif;
+$font-size: 40px;
+
+$color-primary: #3a4166;
+$color-secondary: #1cb9f1;
+$color-background: #fefdf7;
+$color-footer: #fffcdd;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-primary;
+    background-color: $color-background;
+}
+
+a:link, 
+a:visited {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-logo;
+}
+
+.logo {
+    font-family: $font-logo;
+    font-size: 60px;
+    justify-content: flex-start;
+}
+
+.button-nav {
+    display: block;
+    font-family: $font-head;
+    border: solid 1px $color-primary;
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.button-main {
+    display: block;
+    background-color: $color-primary;
+    color: $color-background;
+    font-family: $font-head;
+    font-size: 30px;
+    width: 300px;
+    border-radius: 5px;
+    height: 70px;
+    padding: 15px 10px;
+    margin: 40px 40px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+    h2 {
+        font-size: 40px;
+        font-family: $font-head;
+        color: $color-secondary;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-footer;
+    font-size: 40px;
+    margin: auto;
+    a {
+        padding: 10px 10px;
+        margin: 10px;
+        background-color: $color-footer;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
