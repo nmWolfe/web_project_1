@@ -35,13 +35,13 @@ nav a {
 .button-nav {
   display: block;
   font-family: "Nunito", sans-serif;
-  border: solid 1px #3a4166;
-  width: 100px;
-  height: 100%;
-  margin-right: 10px;
+  font-size: 20px;
   text-align: center;
+  border: solid 1px #3a4166;
+  width: 150px;
+  height: 100%;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 15px 30px;
 }
 
 .button-main {
